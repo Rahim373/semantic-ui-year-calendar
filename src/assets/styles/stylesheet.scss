@@ -1,0 +1,21 @@
+$holiday: red;
+
+body{
+    padding-top: 50px;
+}
+
+.calendar {
+    padding: 0 0 25px 0 !important;
+    
+    .today {
+        background-color: yellowgreen;
+    }
+    .weekly-holiday {
+        color: $holiday !important;
+        font-weight: bold !important;
+    }
+
+    th,td {
+        padding: 0.5em !important;
+    }
+}
